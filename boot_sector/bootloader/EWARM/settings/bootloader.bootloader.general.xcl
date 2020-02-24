@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"D:\bootloader\f100\boot_sector\bootloader\EWARM\bootloader\Exe\bootloader.out" 
+"D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM\bootloader\Exe\bootloader.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 
