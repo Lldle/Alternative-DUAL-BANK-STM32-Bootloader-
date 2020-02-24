@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\settings\main_program.main_program.general.xcl" --backend -f "D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\settings\main_program.main_program.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\bootloader\f100\main_sector\main_program\EWARM\settings\main_program.main_program.general.xcl" --backend -f "D:\bootloader\f100\main_sector\main_program\EWARM\settings\main_program.main_program.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\settings\main_program.main_program.general.xcl" "--debug_file=%~1" --backend -f "D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\settings\main_program.main_program.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\bootloader\f100\main_sector\main_program\EWARM\settings\main_program.main_program.general.xcl" "--debug_file=%~1" --backend -f "D:\bootloader\f100\main_sector\main_program\EWARM\settings\main_program.main_program.driver.xcl" 
 
 @echo off 
 :end

@@ -83,27 +83,23 @@ bit 30 - reserved
 bit 31 - reserved
 */
 
-/*The interrupt vector transfer*/
+/*Перенос вектора прерываний*/
 extern void Vector_Init_Setting(uint32_t addr);
 /*
-Note:
-If you don't move the interrupt vector and then try to use them, the program would crash.
-Call at the beginning of main();
+Примечание:
+Если не перенести вектор прерываний, 
+то при их использовании программа откажет.
+Вызывать в самом начале main();
 */
-
-/*Switching to the program*/
+/*Переход в программу*/
 extern void Boot_Main_Program(void);
-
-/*Switching to the bootloader*/
+/*Переход в загрузчик*/
 extern void Boot_Bootloader(void);
-
-/*Program erase*/
+/*Стирание программы*/
 extern void Erase_Main_Program(void);
-
-/*Program write*/
+/*Запись программы*/
 extern void Write_Main_Program(void);
-
-/*Program validator before writing*/
+/*Валидатор программы перед записью*/
 extern void Validate_Received_Program(void);
 
 

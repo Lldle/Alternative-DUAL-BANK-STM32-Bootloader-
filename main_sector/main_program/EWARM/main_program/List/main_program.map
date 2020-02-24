@@ -1,67 +1,43 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Feb/2020  20:45:20
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  07/Jan/2020  17:16:56
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Exe\main_program.out
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Exe\main_program.out
 #    Map file     =
-#        D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\List\main_program.map
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\List\main_program.map
 #    Command line =
-#        -f C:\Users\Pavel\AppData\Local\Temp\EW5790.tmp ("D:\Alternative DUAL
-#        BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\Bootloader_Extended.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\gpio.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\main.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\startup_stm32f100xb.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_cortex.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_dma.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_exti.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_flash.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_flash_ex.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_gpio.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_gpio_ex.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_msp.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_pwr.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_rcc.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_rcc_ex.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_tim.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_tim_ex.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_it.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\sys.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\system_stm32f1xx.o"
-#        "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj\tim.o"
+#        -f C:\Users\Pavel\AppData\Local\Temp\EW3527.tmp
+#        (D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\Bootloader_Extended.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\gpio.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\main.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\startup_stm32f100xb.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_cortex.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_dma.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_exti.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_flash.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_flash_ex.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_gpio.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_gpio_ex.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_msp.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_pwr.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_rcc.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_rcc_ex.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_tim.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_hal_tim_ex.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\stm32f1xx_it.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\sys.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\system_stm32f1xx.o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj\tim.o
 #        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
-#        --no_out_extension -o "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Exe\main_program.out"
-#        --map "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\List\main_program.map"
-#        --config "D:\Alternative DUAL BANK
-#        (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM/stm32f100xb_flash.icf"
+#        --no_out_extension -o
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Exe\main_program.out
+#        --map
+#        D:\bootloader\f100\main_sector\main_program\EWARM\main_program\List\main_program.map
+#        --config
+#        D:\bootloader\f100\main_sector\main_program\EWARM/stm32f100xb_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -230,7 +206,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj: [1]
+D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj: [1]
     Bootloader_Extended.o        68
     gpio.o                      124
     main.o                      138
@@ -367,7 +343,7 @@ uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f1xx_hal.o [1]
 uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f1xx_hal.o [1]
 
 
-[1] = D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\main_sector\main_program\EWARM\main_program\Obj
+[1] = D:\bootloader\f100\main_sector\main_program\EWARM\main_program\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a

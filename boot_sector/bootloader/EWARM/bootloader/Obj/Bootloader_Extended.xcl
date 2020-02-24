@@ -1,42 +1,42 @@
-"D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\Bootloader_Extended\Bootloader_Extended.c"
+"D:\bootloader\f100\Bootloader_Extended\Bootloader_Extended.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM\bootloader\Obj\Bootloader_Extended.pbi.dep
+D:\bootloader\f100\boot_sector\bootloader\EWARM\bootloader\Obj\Bootloader_Extended.pbi.dep
 -o
 Bootloader_Extended.pbi
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\Bootloader_Extended
+D:\bootloader\f100\Bootloader_Extended
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM/../Inc
+D:\bootloader\f100\boot_sector\bootloader\EWARM/../Inc
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
+D:\bootloader\f100\boot_sector\bootloader\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+D:\bootloader\f100\boot_sector\bootloader\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+D:\bootloader\f100\boot_sector\bootloader\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM/../Drivers/CMSIS/Include
+D:\bootloader\f100\boot_sector\bootloader\EWARM/../Drivers/CMSIS/Include
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\EWARM\..\..\..\Bootloader_Extended
+D:\bootloader\f100\boot_sector\bootloader\EWARM\..\..\..\Bootloader_Extended
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\Inc
+D:\bootloader\f100\boot_sector\bootloader\Inc
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\Drivers\STM32F1xx_HAL_Driver\Inc
+D:\bootloader\f100\boot_sector\bootloader\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+D:\bootloader\f100\boot_sector\bootloader\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+D:\bootloader\f100\boot_sector\bootloader\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\boot_sector\bootloader\Drivers\CMSIS\Include
+D:\bootloader\f100\boot_sector\bootloader\Drivers\CMSIS\Include
 -I
-D:\Alternative DUAL BANK (Bootloader)\Alternative-DUAL-BANK-STM32-Bootloader-\Bootloader_Extended
+D:\bootloader\f100\Bootloader_Extended
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
